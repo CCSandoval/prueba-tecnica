@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Preguntas = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <div className="w-full">
+      <p className="text-5xl text-white font-extrabold">Preguntas</p>
+    </div>
+  );
+};
 
-export default Preguntas
+export default Preguntas;
