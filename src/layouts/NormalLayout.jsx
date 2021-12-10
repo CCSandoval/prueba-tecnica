@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const NormalLayout = () => {
   return (
@@ -9,6 +11,7 @@ const NormalLayout = () => {
       <div className="w-full h-full flex overflow-y-scroll">
         <Outlet />
       </div>
+      <ToastContainer />
     </div>
   );
 };
