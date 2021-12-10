@@ -25,6 +25,8 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      red: colors.red,
+      blue: colors.blue,
       dark: { normal: "#001122", hover: "#081421" },
     },
     plugins: [],
