@@ -13,14 +13,12 @@ const Preguntas = () => {
             ¿Para qué son los software de gestión documental?
           </h2>
           <p className="text-white m-2 text-justify w-4/5">
-            Exercitation culpa officia non consequat adipisicing eu id. Anim
-            proident sint pariatur culpa aute velit magna eu tempor do laborum
-            deserunt. Aliqua id amet cillum mollit pariatur. Minim sunt amet
-            fugiat aliquip excepteur consequat magna tempor pariatur
-            reprehenderit ullamco est est. Laborum ex enim proident cillum
-            tempor pariatur. Magna consectetur nostrud quis sint nostrud et sunt
-            occaecat enim duis esse aliqua dolor duis. Quis duis consectetur
-            aliquip magna mollit ullamco ullamco.
+            Son sistemas que se usan para administrar documentos en una empresa
+            digitalmente teniendo así un record digital en lugar de uno fisico,
+            disminuyendo el impacto ambiental y financiero de la empresa que usa
+            este tipo de software, también facilita las tareas de una empresa a
+            la hora de almacenar grandes cantidades de papeleo y asegura el
+            manejo responsable de estos datos.
           </p>
         </div>
         <div className="border-t border-r h-full flex flex-col justify-center">
@@ -29,11 +27,14 @@ const Preguntas = () => {
             <i className="far fa-hand-point-left mx-2" />
           </h2>
           <p className="text-white m-2 text-justify w-4/5 self-end">
-            Tempor consectetur reprehenderit esse laborum laborum sint nostrud
-            laborum officia. Laboris esse ex dolor deserunt irure et labore
-            mollit commodo officia labore pariatur aliqua commodo. Aliquip
-            incididunt ad pariatur culpa cillum sit in dolor sit. Irure
-            voluptate irure ut aliqua eu sunt mollit id ea.
+            Vine a conocer de MiContrato por medio de esta vacante de
+            desarrollador Frontend y francamente no me di a la labor de
+            averigüar cuál era su labor, no obstante, según la información que
+            encontre en la página oficial, me parece una solución efectiva al
+            manejo de papeleo poco efectivo que se puede presentar en un
+            procedimiento legal, MiContrato provee una plataforma confiable para
+            facilitar el intercambio de documentos, el firmado remoto y el
+            almacenamiento seguro de los datos.
           </p>
         </div>
         <div className="border-t border-l h-full flex flex-col justify-center">
@@ -43,31 +44,34 @@ const Preguntas = () => {
             frontend?
           </h2>
           <p className="text-white m-2 text-justify w-4/5">
-            Dolore excepteur dolor laboris eu velit ad duis. Enim excepteur
-            culpa ea et do voluptate duis in laboris minim. Non reprehenderit et
-            ex veniam duis exercitation fugiat velit. Eu cillum proident do
-            voluptate elit magna fugiat incididunt enim consequat ad incididunt.
-            Pariatur excepteur cillum do ipsum reprehenderit amet nostrud
-            laborum qui deserunt aliquip. Nisi minim tempor dolor non magna
-            consectetur velit deserunt quis exercitation. Culpa excepteur et
-            magna mollit officia deserunt cillum mollit nostrud eu ad.
+            Una prueba unitaria es la manera en la que el equipo de desarrollo
+            se asegura del correcto funcionamiento de una unidad del código. Se
+            escriben casos de prueba conociendo cuál será el resultado esperado
+            y se aplican a cierta parte del código para asegurar que su
+            resultado sea el deseado. Al frontend de una aplicación se le pueden
+            aplicar estas pruebas unitarias, pruebas de integracion, que
+            consiste en probar que dos o mas elementos de una aplicación sean
+            compatibles y las pruebas end-to-end, que consisten en probar una
+            aplicación desde la perspectiva del usuario final y asegurarse que
+            su fucnionamiento sea el deseado desde el inicio hasta el final, de
+            la manera en que la aplicacion fue pensada.
           </p>
         </div>
         <div className="border-t border-r h-full flex flex-col justify-center">
           <h2 className="text-2xl text-white font-bold my-2 text-right">
             Explicar al menos un método de consumo de servicios rest de forma
-            segura
+            segura.
             <i className="far fa-hand-point-left mx-2" />
           </h2>
           <p className="text-white m-2 text-justify w-4/5 self-end">
-            Exercitation ullamco pariatur nisi non non cupidatat quis
-            adipisicing duis labore magna ea. Qui minim aliquip dolor dolor enim
-            veniam Lorem qui. Ut laborum esse laboris labore irure sunt do.
-            Nulla ea elit tempor nulla veniam mollit. Minim id consequat et
-            amet. Sunt ullamco ut aliqua et adipisicing sit ullamco officia
-            velit sunt amet qui eiusmod sunt. Fugiat minim exercitation pariatur
-            proident et laborum reprehenderit ut sunt aliquip eiusmod ipsum
-            cupidatat fugiat.
+            Para consumir servicios rest de manera segura solo he usado un
+            metodo, el de autorización por tokens, consiste en otorgarle al
+            usuario de mi sitio web un token cuando inicia sesión que verifique
+            su identidad y le permita acceso por cierta cantidad de tiempo a
+            este, y revisar en cada una de las comunicaciones con el api que el
+            token este presente y sea valido, si ambas de estas condiciones se
+            cumplen, el sitio hace la comunicación con el api, si no, se le
+            restringe el acceso al usuario.
           </p>
         </div>
       </div>
