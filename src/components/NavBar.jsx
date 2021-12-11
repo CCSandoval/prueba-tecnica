@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <div className="flex 2xl:bg-navBackground bg-gray-800 bg-opacity-40 bg-contain justify-around w-full sticky top-0">
       <div className="flex bg-gray-800 bg-opacity-40 bg-contain justify-around w-full sticky top-0">
-        <NavLink tag="Inicio" icon="fas fa-home" route="/inicio" />
+        <NavLink tag="Inicio" icon="fas fa-home" route="/" />
         <NavLink tag="Usuarios" icon="fas fa-user" route="/usuarios" />
         <NavLink tag="Preguntas" icon="fas fa-question" route="/preguntas" />
       </div>
