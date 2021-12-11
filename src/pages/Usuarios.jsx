@@ -25,9 +25,6 @@ const Usuarios = () => {
         <h1 className="text-4xl my-2 text-white font-extrabold">
           Usuarios
         </h1>
-        {users.map((u) => {
-          return <UserCard key={u.id} userData={u} />;
-        })}
         <button
           onClick={(e) => {
             e.preventDefault();
@@ -46,6 +43,9 @@ const Usuarios = () => {
             </>
           )}
         </button>
+        {users.map((u) => {
+          return <UserCard key={u.id} userData={u} />;
+        })}
       </div>
     </div>
   );
