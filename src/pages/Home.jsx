@@ -35,7 +35,7 @@ const Home = () => {
           merito propio haciendo un trabajo en Java para un conocido, y&nbsp;
           <span className="underline hover:text-blue-300">
             <a
-              href="https://powerful-savannah-89124.herokuapp.com/"
+              href="https://chat-app-ccst.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
